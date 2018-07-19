@@ -34,4 +34,10 @@
         下载地址: https://github.com/tesseract-ocr/tessdata
 
 运行:
-    python3 ttf.py
+    python3 ttf.py （数字替换）
+    python3 font.py （所有字体替换）
+
+其他:
+    现阶段 ttf.py实现了 数字的正确获取, font.py 实现将所有被替换字体合并成一张图片。
+    下阶段，将图片字体转成字符串, 匹配成对应的json, 思路：机器学习或者使用公有云提供的ocr通用字体识别，例如:
+    https://cloud.tencent.com/act/event/ci_demo.html上进行测试, 测试识别率很好, 而且有免费额度。
